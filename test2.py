@@ -184,9 +184,9 @@ while cap.isOpened():
             tuple(np.multiply(left_elbow,[640, 440]).astype(int)), 
             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2, cv2.LINE_AA
             )
-            count=("working good")
-        else:
-            count=("not working ")
+        #     count=("working good")
+        # else:
+        #     count=("not working ")
 
         #------------------>Right Bisepes <-----------------------------
 
@@ -196,7 +196,9 @@ while cap.isOpened():
             tuple(np.multiply(right_elbow,[640, 440]).astype(int)),
             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2, cv2.LINE_AA 
             )
-       
+            count=("working good")
+        else:
+            count=("not working ")
        
         #--------------->feet touching exersise <-------------------------
         if angle_right_hip<90 :                           
